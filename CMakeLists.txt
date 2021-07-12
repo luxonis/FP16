@@ -1,9 +1,9 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8.12 FATAL_ERROR)
 
-INCLUDE(GNUInstallDirs)
-
 # ---[ Project
 PROJECT(FP16 C CXX)
+
+INCLUDE(GNUInstallDirs)
 
 # ---[ Options.
 OPTION(FP16_BUILD_TESTS "Build FP16 unit tests" ON)
